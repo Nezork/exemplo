@@ -262,12 +262,14 @@ footer {
 @media (max-width: 768px) {
   #location iframe {
     height: 300px; /* Reduz a altura do mapa em telas menores */
+    width: 450px; /* Ajusta a largura do mapa para telas menores */
   }
 }
 
 @media (max-width: 480px) {
   #location iframe {
     height: 200px; /* Altura ainda menor para telas muito pequenas */
+    width: 350px; /* Ajusta a largura do mapa para telas menores */
   }
 }
 
