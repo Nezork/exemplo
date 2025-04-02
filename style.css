@@ -257,12 +257,14 @@ footer {
   height: 400px; /* Altura padrão */
   border: 5px solid #D09E38; /* Mantém a borda */
   border-radius: 10px; /* Mantém o arredondamento */
+  margin-left: 30px;
 }
 
 @media (max-width: 768px) {
   #location iframe {
     height: 300px; /* Reduz a altura do mapa em telas menores */
     width: 450px; /* Ajusta a largura do mapa para telas menores */
+    margin-left: 3px;
   }
 }
 
@@ -270,9 +272,9 @@ footer {
   #location iframe {
     height: 200px; /* Altura ainda menor para telas muito pequenas */
     width: 350px; /* Ajusta a largura do mapa para telas menores */
+    margin-left: 3px;
   }
 }
-
 @media (max-width: 768px) {
   .logos-container {
     flex-direction: column;
