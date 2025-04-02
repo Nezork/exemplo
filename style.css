@@ -197,7 +197,7 @@ footer {
   background-image: url('frente condo.jpg');
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -208,10 +208,11 @@ footer {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
+  font-size: 50px;
 }
 
 .overlay-content h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -330,5 +331,11 @@ footer {
   .logohs, .logores, .logozap {
     width: 100px; /* Ajusta o tamanho das imagens para caberem lado a lado */
     height: auto;
+  }
+
+  .overlay-content h2 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
 }
